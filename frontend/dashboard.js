@@ -1,6 +1,6 @@
 async function loadDashboard() {
     try {
-        const response = await fetch("https://ai-dropout-prediction-system.onrender.com");
+        const response = await fetch("https://ai-dropout-prediction-system.onrenderer.com/dashboard");
         const data = await response.json();
 
         document.getElementById("totalLogs").innerText = data.total_logs;
