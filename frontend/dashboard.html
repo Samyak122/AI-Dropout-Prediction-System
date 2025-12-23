@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropout Analytics Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP NAVIGATION -->
+<nav class="top-nav">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <img src="dropout.png" alt="AI Dropout System" class="nav-logo-img">
+        </div>
+        <ul class="nav-menu">
+            <li><a href="landing.html">Home</a></li>
+            <li><a href="dashboard.html" class="active">Dashboard</a></li>
+     
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+
+    <header id="about">
+        <h1><img src="dropout.png" alt="Dropout Analytics Dashboard" class="header-logo"></h1>
+        <p>Administrative overview of risk, interventions, and outcomes</p>
+    </header>
+
+    <div class="card">
+        <h2>Total Interventions Logged</h2>
+        <p id="totalLogs">0</p>
+    </div>
+
+    <div class="card">
+        <h2>Risk Distribution</h2>
+        <ul id="riskStats"></ul>
+    </div>
+
+    <div class="card">
+        <h2>Interventions Taken</h2>
+        <ul id="interventionStats"></ul>
+    </div>
+
+    <div class="card">
+        <h2>Outcomes</h2>
+        <ul id="outcomeStats"></ul>
+    </div>
+
+    <a href="index.html" class="btn">⬅ Back to Prediction</a>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Dashboard Features</h4>
+                <p>Real-time analytics and intervention tracking for educational administrators.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Student Prediction</a></li>
+                    <li><a href="#reports">Generate Reports</a></li>
+                    <li><a href="#export">Export Data</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <p><i class="fas fa-envelope"></i> samyakshingankar2006@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 7620604870</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 AI Dropout Prediction System. All rights reserved.</p>
+        </div>
+    </footer>
+
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
